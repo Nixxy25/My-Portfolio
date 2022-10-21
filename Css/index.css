@@ -1,0 +1,351 @@
+body{
+    background-color: #051622;
+    font-family: "Bree Serif";
+
+}
+
+/* navigation-bar */
+.container-fluid{
+    padding: 3% 8% 5% 8%;
+    font-size: 1.3rem;
+}
+.nav-link{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.nav-link:hover{
+    color: #1ba098;
+}
+.navbar-image{
+    width: 75px;
+}
+.nav-logo{
+    width: 50px;
+}
+.navbar-brand{
+    font-family: "Lobster Two";
+    font-size: 2rem;
+    color: #1ba098;
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+.nav-special{
+    border: 3px;
+    background-color: #1ba098;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+    left: 10px;
+}
+.nav-special:hover{
+ background-color: #fff;   
+}
+.navbar-toggler{
+    border: 0;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+.toggler-icon{
+    width: 30px;
+    height: 3px;
+    background-color: #1ba098;
+    display: block;
+    transition: all 0.2s;
+}
+.middle-bar{
+    margin: 5px auto;
+}
+.navbar-toggler .top-bar{
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar{
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.navbar-toggler .bottom-bar{
+    transform: rotate(-45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler.collapsed .top-bar{
+    transform: rotate(0);
+}
+.navbar-toggler.collapsed .middle-bar{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.navbar-toggler.collapsed .bottom-bar{
+    transform: rotate(0);
+} 
+.navbar-toggler.collapsed .toggler-icon{
+    background-color: #1ba098;
+} 
+
+
+/* Title */
+
+#title{
+    background-color: #051622;
+}
+.title-image{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 18%;
+}
+.title-text{
+    font-size: 5rem;
+    color: #fff;
+}
+.title-row{
+ padding: 5% 1%;
+}
+
+.icon{
+    margin: 5% 3% 5% 0;
+    color: #1ba098;
+}
+.icon:hover{
+    color: #fff;
+}
+.span-text{
+    color: #1ba098;
+    font-weight: bolder;
+}
+.download-button{
+    background-color: #1ba098;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+.download-button:hover{
+    color: #1ba098;
+}
+
+/* About Me */
+
+#About-Me{
+    padding: 5% 8%;
+    background-color: #051622;
+    color: #fff;
+    text-align: center;
+}
+.about-heading{
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 4%;
+}
+.about-image{
+    width: 20%;
+    padding: 5px 0 30px 0;
+}
+.about-text{
+    font-size: 2.2rem;
+    text-align: left;
+}
+
+/* My Stack */
+#stack{
+   padding: 5% 8%; 
+   background-color: #051622;
+   color: #fff;
+}
+.progress-bar{
+    font-size: 20px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #1ba098;
+}
+.progress{
+    width: 70%;
+    height: 30px;
+}
+
+/* Portfolio */
+#portfolio{
+    padding: 5% 8%;
+    background-color: #051622;
+    color: #fff;
+}
+.btn-card{
+    background-color: #051622;
+    color: #fff;
+    border: none;
+}
+.card-img-top{
+    height: 150px;
+}
+.card-body{
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.1);   
+}
+.card{
+    transition: transform .5s;
+    background-color: #fff;
+    border: none;
+    color: #051622;
+    margin: 15px;
+}
+
+/* Achievements */
+#achievements{
+    padding: 5% 8%;
+    background-color: #051622;
+    color: #fff;
+}
+.a-text{
+    background-color: #1ba098;
+    text-align: center;
+    padding: 8% 3%;
+}
+.a-span{
+    color: #fff;
+    font-size: 3rem;
+}
+.a-p{
+    color: #051622;
+    font-size: 1.3rem;
+}
+
+/* Contact */
+#contact{
+    padding: 5% 8%;
+    background-color: #051622;
+    color: #fff;
+}
+.contact-info{
+    font-size: 1.5rem;
+    color: #1ba098;
+}
+.contact-btn{
+    background-color: #1ba098;
+    border: none;
+}
+.footer-icon{
+    text-align: center;
+    margin-top: 2rem;
+}
+.follow-icon{
+    color: #1ba098;
+    padding: 0 7px;
+}
+.follow-icon:hover{
+    color: #fff;
+}
+.footer-owner{
+    font-size: 1rem;
+    font-family: cursive;
+    padding: 2% 0 0 0;
+}
+.heart-icon{
+    color: #1ba098;
+}
+
+/* Media Query */
+
+@media (max-width:1024px){
+    .title-image{
+        position: static;
+        width: 115%;
+        height: 350px;   
+    }
+    #title{
+        text-align: left;
+    }
+    .about-text{
+        font-size: 1.8rem;
+    }
+    body{
+        text-align: center;
+    }
+    .progress{
+        width: 100%;
+    }
+    .card{
+        margin: 20px;
+    }
+    .a-text{
+        margin: 10px;
+    }
+  
+
+}
+@media (max-width: 990px){
+    .nav-special{
+        position: static;
+        padding: 0 2%;
+    }
+    .navbar{
+        text-align: center;
+    }
+    .contact-info{
+        font-size: 1.2rem;
+    }
+   
+}
+@media (max-width: 1289px){
+    .about-text{
+        font-size: 1.9rem;
+    }
+}
+
+
+
+@media (max-width:768px){
+   
+    .title-image{
+        position: relative;
+        width: 90%;
+        left: 4%;   
+    }
+    #title{
+        text-align: center;
+        padding: 2% 2% 15% 2%;
+    }
+    .about-text{
+        text-align: center;
+        font-size: 1.6rem;
+    }
+    .progress{
+        width: 100%;
+    }
+    .card{
+        position: relative;
+        left: 13%;
+        width: 70%;
+    }
+    .body{
+        text-align: center;
+    }
+    .contact-info{
+        font-size: 1.1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
