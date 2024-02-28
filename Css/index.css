@@ -137,6 +137,7 @@ body{
     background-color: #051622;
     color: #fff;
     text-align: center;
+
 }
 .about-heading{
     text-align: center;
@@ -148,8 +149,9 @@ body{
     padding: 5px 0 30px 0;
 }
 .about-text{
-    font-size: 2.2rem;
+    font-size: 1.7rem;
     text-align: left;
+    line-height: 2;
 }
 
 /* My Stack */
@@ -244,7 +246,7 @@ body{
 }
 .footer-owner{
     font-size: 1rem;
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 2% 0 0 0;
 }
 .heart-icon{
